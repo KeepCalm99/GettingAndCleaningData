@@ -4,7 +4,7 @@ This code book summarizes the resulting data fields in TidyData.txt.
 Identifiers:
 
 •	Subject - The ID of the test subject
-•	Activity_Label - The type of activity performed when the corresponding measurements were taken of the standard deviation and the mean.
+• Activity_Label - The type of activity performed when the corresponding measurements were taken of the standard deviation and the mean.
 
 Measurement:
  The standard deviation and the mean were taken for the following measurements noted in the title (“mean()” for the mean and “std()” for the standard deviation:
