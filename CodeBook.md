@@ -1,10 +1,14 @@
 Code Book
 This code book summarizes the resulting data fields in TidyData.txt.
-Identifiers
-ï	Subject - The ID of the test subject
-ï	Activity_Label - The type of activity performed when the corresponding measurements were taken of the standard deviation and the mean.
-Measurement
- The standard deviation and the mean were taken for the following measurements noted in the title (ìmean()î for the mean and ìstd()î for the standard deviation:
+
+Identifiers:
+
+‚Ä¢	Subject - The ID of the test subject
+‚Ä¢	Activity_Label - The type of activity performed when the corresponding measurements were taken of the standard deviation and the mean.
+
+Measurement:
+ The standard deviation and the mean were taken for the following measurements noted in the title (‚Äúmean()‚Äù for the mean and ‚Äústd()‚Äù for the standard deviation:
+ 
 tBodyAcc-mean()-X			fBodyAcc-mean()-X
 tBodyAcc-mean()-Y			fBodyAcc-mean()-Y
 tBodyAcc-mean()-Z			fBodyAcc-mean()-Z
@@ -42,15 +46,15 @@ tGravityAccMag-std()		fBodyBodyGyroMag-mean()
 tBodyAccJerkMag-mean()		fBodyBodyGyroMag-std()
 tBodyAccJerkMag-std()		fBodyBodyGyroMag-meanFreq()
 tBodyGyroMag-mean()		fBodyBodyGyroJerkMag-mean()
-tBodyGyroMag-std()		fBodyBodyGyroJerkMag-std()
-tBodyGyroJerkMag-mean()		fBodyBodyGyroJerkMag-meanFreq()
+tBodyGyroMag-std()      		fBodyBodyGyroJerkMag-std()
+tBodyGyroJerkMag-mean() 		fBodyBodyGyroJerkMag-meanFreq()
 tBodyGyroJerkMag-std()		
 
-Activity Labels
-ï	WALKING (value 1): subject was walking during the test
-ï	WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
-ï	WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
-ï	SITTING (value 4): subject was sitting during the test
-ï	STANDING (value 5): subject was standing during the test
-ï	LAYING (value 6): subject was laying down during the test
+Activity Labels:
+‚Ä¢	WALKING (value 1): subject was walking during the test
+‚Ä¢	WALKING_UPSTAIRS (value 2): subject was walking up a staircase during the test
+‚Ä¢	WALKING_DOWNSTAIRS (value 3): subject was walking down a staircase during the test
+‚Ä¢	SITTING (value 4): subject was sitting during the test
+‚Ä¢	STANDING (value 5): subject was standing during the test
+‚Ä¢	LAYING (value 6): subject was laying down during the test
 
